@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1900" viewBox="0 0 1200 1900" role="img" aria-labelledby="title desc">
+  <title id="title">ReverseMandi marketplace workflow</title>
+  <desc id="desc">Flowchart showing buyers posting demand, demand pooling, FPO offers, order confirmation, route planning, delivery, payment records, and pilot feedback.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f8f1"/><stop offset="1" stop-color="#e8f1e8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#123a2c" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1L10 6 1 11" fill="none" stroke="#31805a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      .title{font:700 46px Arial,sans-serif;fill:#173d2d}.subtitle{font:400 20px Arial,sans-serif;fill:#557163}.box{filter:url(#shadow)}.head{font:700 24px Arial,sans-serif;fill:#173d2d}.body{font:400 18px Arial,sans-serif;fill:#405b4b}.small{font:400 16px Arial,sans-serif;fill:#587365}.arrow{fill:none;stroke:#31805a;stroke-width:4;stroke-linecap:round;marker-end:url(#arrow)}.number{font:700 17px Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+    </style>
+  </defs>
+  <rect width="1200" height="1900" fill="url(#bg)"/>
+  <circle cx="1080" cy="130" r="170" fill="#dcebdc" opacity=".55"/><circle cx="90" cy="1780" r="210" fill="#dcebdc" opacity=".5"/>
+  <text x="600" y="90" text-anchor="middle" class="title">ReverseMandi</text>
+  <text x="600" y="128" text-anchor="middle" class="subtitle">Demand-led farm marketplace · Order to delivery</text>
+
+  <!-- step 1 -->
+  <g class="box"><rect x="270" y="175" width="660" height="130" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="215" r="21" fill="#31805a"/><text x="310" y="216" class="number">1</text>
+  <text x="350" y="222" class="head">Buyers post requirements</text>
+  <text x="310" y="260" class="body">Crop, quantity, quality, location and delivery date</text>
+  <path d="M600 310V350" class="arrow"/>
+
+  <!-- step 2 -->
+  <g class="box"><rect x="270" y="365" width="660" height="130" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="405" r="21" fill="#31805a"/><text x="310" y="406" class="number">2</text>
+  <text x="350" y="412" class="head">Compatible demand is pooled</text>
+  <text x="310" y="450" class="body">Group nearby orders by crop and delivery window</text>
+  <path d="M600 500V540" class="arrow"/>
+
+  <!-- step 3 -->
+  <g class="box"><rect x="270" y="555" width="660" height="150" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="595" r="21" fill="#31805a"/><text x="310" y="596" class="number">3</text>
+  <text x="350" y="602" class="head">FPOs review demand and make offers</text>
+  <text x="310" y="640" class="body">Show expected quantity, harvest window and quality</text>
+  <text x="310" y="670" class="small">Seller sees offer value and estimated costs</text>
+  <path d="M600 710V750" class="arrow"/>
+
+  <!-- step 4 -->
+  <g class="box"><rect x="270" y="765" width="660" height="140" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="805" r="21" fill="#31805a"/><text x="310" y="806" class="number">4</text>
+  <text x="350" y="812" class="head">Buyer and FPO agree on terms</text>
+  <text x="310" y="850" class="body">Confirm price, quantity, quality and delivery terms</text>
+  <path d="M600 910V950" class="arrow"/>
+
+  <!-- step 5 -->
+  <g class="box"><rect x="270" y="965" width="660" height="140" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="1005" r="21" fill="#31805a"/><text x="310" y="1006" class="number">5</text>
+  <text x="350" y="1012" class="head">Route is suggested and confirmed</text>
+  <text x="310" y="1050" class="body">FPO or dispatcher confirms vehicle and pickup plan</text>
+  <path d="M600 1110V1150" class="arrow"/>
+
+  <!-- step 6 -->
+  <g class="box"><rect x="270" y="1165" width="660" height="140" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="1205" r="21" fill="#31805a"/><text x="310" y="1206" class="number">6</text>
+  <text x="350" y="1212" class="head">Produce is collected and delivered</text>
+  <text x="310" y="1250" class="body">Buyer confirms receipt; issues can be recorded</text>
+  <path d="M600 1310V1350" class="arrow"/>
+
+  <!-- step 7 -->
+  <g class="box"><rect x="270" y="1365" width="660" height="140" rx="24" fill="#fff" stroke="#c9ddcc" stroke-width="2"/></g>
+  <circle cx="310" cy="1405" r="21" fill="#31805a"/><text x="310" y="1406" class="number">7</text>
+  <text x="350" y="1412" class="head">Delivery and payment are recorded</text>
+  <text x="310" y="1450" class="body">Both sides can review order status and transaction costs</text>
+  <path d="M600 1510V1550" class="arrow"/>
+
+  <!-- step 8 -->
+  <g class="box"><rect x="270" y="1565" width="660" height="140" rx="24" fill="#e0f0e3" stroke="#9cc9a8" stroke-width="2"/></g>
+  <circle cx="310" cy="1605" r="21" fill="#31805a"/><text x="310" y="1606" class="number">8</text>
+  <text x="350" y="1612" class="head">Pilot results improve planning</text>
+  <text x="310" y="1650" class="body">Review net realization, landed cost and delivery results</text>
+  <path d="M930 1635H1030V275H950" class="arrow"/>
+  <text x="1048" y="930" class="small" transform="rotate(-90 1048 930)" text-anchor="middle">Transaction data informs future demand planning</text>
+
+  <text x="600" y="1790" text-anchor="middle" class="small">Forecasts and route suggestions support decisions; participants confirm final orders and logistics.</text>
+</svg>
