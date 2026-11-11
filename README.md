@@ -19,11 +19,6 @@ Expected Solution: Create a digital marketplace that:
 • Provides logistics support.
 • Uses AI for demand forecasting and route optimization.
 
-Benefits:
-
-• Better prices for farmers.
-• Lower prices for consumers.
-• Reduced supply chain inefficiencies.
 
 ## Proposed Solution
 ReverseMandi is a demand-led farm marketplace that connects Farmer Producer Organizations (FPOs) with nearby consumers and bulk buyers. It brings buyer requirements, FPO produce listings and shared logistics together so sellers can compare offers and estimated costs before dispatch.
@@ -34,7 +29,7 @@ Buyers can post upcoming needs, while FPOs list expected harvest quantities and 
 
 The platform can also support shared pickup and delivery planning, including route suggestions. FPOs and transporters confirm the final logistics plan. Completed orders record agreed prices, fees, logistics costs and delivery details, helping buyers and FPOs track transactions.
 
-Order records may support a future integration with authorized lenders, subject to FPO consent and lender checks. Financing is outside the initial prototype, and credit is not guaranteed. ReverseMandi’s proposed distinction is its combined workflow for demand pooling, offer comparison, harvest planning, logistics and transaction records. Its usefulness and distinctiveness should be validated against existing platforms before claiming it is unique.
+
 
 
 ## Technical Approach
@@ -57,7 +52,7 @@ Low digital literacy, limited trust and low order volumes could make demand pool
 
 Harvest estimates may be wrong, and produce quality, cancellations, payment delays and transport costs can create disputes. Label forecasts as estimates, use consistent listing fields, and record quality, delivery, cancellation and payment terms before confirming orders. Track actual logistics costs and fulfillment results before expanding.
 
-Collect only the data needed for the pilot and explain who can access it. Treat external platform, payment and lending integrations as future possibilities until access and approvals are secured.
+
 ## Impact and Benefits
 Farmers and FPOs could gain better visibility into buyer needs and competing offers, compare expected proceeds after disclosed costs, and keep records of agreed terms. Consumers and institutions could discover produce from participating FPOs, while small buyers may benefit from pooled orders and bulk buyers can specify quantities, quality and delivery needs more clearly.
 
@@ -67,7 +62,7 @@ The platform may improve farmer net realization or reduce buyer costs if better 
 Pilot measures
 Track farmer and FPO proceeds after costs, buyer landed cost for comparable orders, time to confirm orders, and the share delivered in full and on time. Also record rejected or damaged produce, vehicle use, estimated versus actual delivery distance, repeat use, and feedback from farmers, FPOs and buyers.
 ## Research and References
-Remove These Lines
+
 • e-NAM, FPO trading: https://enam.gov.in/stakeholders-Involved/fpos
 • RBI, “Agriculture Supply Chain Dynamics: Evidence from Pan-India Survey” (2024): https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22326
 • Agmarknet, agricultural market prices: https://agmarknet.gov.in
